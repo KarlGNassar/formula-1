@@ -104,14 +104,14 @@
 .app__bottomCharts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: "quali constructor driver";
+  grid-template-areas: "quali constructs driver";
   gap: 20px 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .app__bottomChart--center {
-  grid-area: constructor;
+  grid-area: constructs;
 }
 .app__bottomChart--left {
   grid-area: quali;
@@ -124,7 +124,7 @@
   .app__bottomCharts {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
-      "quali constructor"
+      "quali constructs"
       "driver driver";
   }
 }
@@ -134,7 +134,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "quali"
-      "constructor"
+      "constructs"
       "driver";
   }
 
