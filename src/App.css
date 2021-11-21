@@ -88,3 +88,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .app__topChart {
+    flex-direction: column;
+  }
+}
