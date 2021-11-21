@@ -32,11 +32,13 @@ function App() {
           <QualiChart />
         </div>
         <div className="app__bottomChart--center">
-          <h1 className="app__bottomChart--left--description">Constrcutors</h1>
+          <h1 className="app__bottomChart--center--description">
+            Constrcutors
+          </h1>
           <ConstructorsChart />
         </div>
         <div className="app__bottomChart--right">
-          <h1 className="app__bottomChart--left--description">Drivers</h1>
+          <h1 className="app__bottomChart--right--description">Drivers</h1>
           <DriversChart />
         </div>
       </div>

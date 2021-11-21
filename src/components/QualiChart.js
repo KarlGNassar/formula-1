@@ -24,7 +24,7 @@ const QualiChart = () => {
       <Chart
         options={chart.options}
         series={chart.series}
-        width={300}
+        width={375}
         type="polarArea"
       />
     </div>
