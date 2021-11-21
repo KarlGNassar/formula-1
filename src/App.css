@@ -68,16 +68,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 400px;
-  width: 400px;
-  text-align: center;
+  /* width: 400px; */
 
+  height: 400px;
+  text-align: center;
   background: linear-gradient(#26273c, #595b6b);
-  margin: 20px;
-  padding: 20px;
+  /* margin: 20px; */
+  padding: 10px;
 }
 
-.app__bottomChart--left--description {
+/* .app__bottomChart--left--description {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 25px;
@@ -92,5 +92,47 @@
 @media screen and (max-width: 800px) {
   .app__topChart {
     flex-direction: column;
+  }
+} */
+
+.app__bottomCharts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "quali constructor driver";
+  gap: 20px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.app__bottomChart--center {
+  grid-area: constructor;
+}
+.app__bottomChart--left {
+  grid-area: quali;
+}
+.app__bottomChart--right {
+  grid-area: driver;
+}
+
+@media screen and (max-width: 1000px) {
+  .app__bottomCharts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "quali constructor"
+      "driver driver";
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app__bottomCharts {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "quali"
+      "constructor"
+      "driver";
+  }
+
+  .app__bottomCharts {
+    margin-top: 30px;
   }
 }

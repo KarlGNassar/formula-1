@@ -71,7 +71,8 @@ const DriversChart = () => {
         options={chart.options}
         series={chart.series}
         type="bar"
-        width={400}
+        width="100%"
+        height={300}
       />
     </div>
   );
