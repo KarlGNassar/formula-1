@@ -102,7 +102,7 @@ const PodiumChart = () => {
         min: 1,
         max: 10,
         title: {
-          text: "Podiums",
+          text: "Podium",
         },
       },
       colors: ["#62b2c9", "#e97486"],
