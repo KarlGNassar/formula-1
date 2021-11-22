@@ -115,15 +115,14 @@
 }
 
 @media screen and (max-width: 800px) {
+  .app__topChart {
+    flex-direction: column;
+  }
   .app__bottomCharts {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "quali"
       "constructs"
       "driver";
-  }
-
-  .app__bottomCharts {
-    margin-top: 30px;
   }
 }
