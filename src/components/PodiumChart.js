@@ -59,7 +59,7 @@ const PodiumChart = () => {
         min: 1,
         max: 10,
         title: {
-          text: "Podium",
+          text: "Position",
         },
         labels: {
           formatter: function (val) {
