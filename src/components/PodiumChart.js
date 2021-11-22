@@ -19,10 +19,9 @@ const PodiumChart = () => {
           enabled: false,
         },
         foreColor: "#ffffff",
-        background: "#ffffff00",
       },
-      theme: {
-        mode: "dark",
+      tooltip: {
+        theme: "dark",
       },
       dataLabels: {
         enabled: false,
