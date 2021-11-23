@@ -1,6 +1,7 @@
 import "./App.css";
 import ConstructorsChart from "./components/ConstructorsChart";
 import DriversChart from "./components/DriversChart";
+import Footer from "./components/Footer";
 import PodiumChart from "./components/PodiumChart";
 
 import QualiChart from "./components/QualiChart";
@@ -42,6 +43,9 @@ function App() {
           <DriversChart />
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
