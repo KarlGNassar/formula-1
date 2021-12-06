@@ -2,7 +2,7 @@ import Chart from "react-apexcharts";
 
 const QualiChart = () => {
   const chart = {
-    series: [7, 8, 2, 2, 1],
+    series: [8, 8, 2, 2, 1],
     options: {
       chart: {
         type: "polarArea",

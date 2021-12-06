@@ -4,7 +4,7 @@ const DriversChart = () => {
   const chart = {
     series: [
       {
-        data: [351.5, 343.5, 203, 190, 153],
+        data: [369.5, 369.5, 218, 190, 158],
       },
     ],
     options: {
@@ -42,7 +42,7 @@ const DriversChart = () => {
         colors: ["#fff"],
       },
       xaxis: {
-        categories: [" Verstappen", " Hamilton", " Bottas", "Perez", "Norris"],
+        categories: [" Verstappen", " Hamilton", " Bottas", "Perez", "Leclerc"],
       },
       yaxis: {
         labels: {

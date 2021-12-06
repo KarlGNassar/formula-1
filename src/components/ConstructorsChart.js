@@ -4,7 +4,7 @@ const ConstructorsChart = () => {
   const chart = {
     series: [
       {
-        data: [546.5, 541.5, 297.5, 258, 127],
+        data: [587.5, 559.5, 307.5, 269, 149],
       },
     ],
     options: {
