@@ -22,7 +22,7 @@ const DriversChart = () => {
           },
         },
       },
-      colors: ["#9e75e9", "#62b2c9", "#e97486", "#da8bd4", "#e1a583"],
+      colors: ["#9e75e9", "#62b2c9", "#e1a583", "#da8bd4", "#e97486"],
       dataLabels: {
         enabled: true,
         textAnchor: "start",
